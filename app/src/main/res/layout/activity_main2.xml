@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eef0f1"
+    android:background="#EEF0F1"
     tools:context=".MainActivity">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,36 +15,61 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:src="@drawable/user"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:src="@drawable/user" />
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_box"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/box"
+        >
 
-        <RelativeLayout
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
+        <ImageView
+            android:id="@+id/iv_holiday"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/user"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_marginTop="150dp"
-            android:background="@drawable/box">
-
-            <ImageView
-                android:id="@+id/iv_holiday"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_alignParentLeft="true"
-                android:src="@drawable/user"
-                />
-            
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/txtholiday"
-                android:layout_toEndOf="@+id/iv_holiday"
-
-                /></TextView>
+            android:layout_height="wrap_content"
+            android:text="@string/txtholiday"
+            android:layout_toEndOf="@+id/iv_holiday"
+            android:layout_toRightOf="@+id/iv_holiday"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/keteranganBudi"
+            android:layout_toEndOf="@+id/iv_holiday"
+            android:layout_toRightOf="@+id/iv_holiday"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            />
 
         </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_box"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        tools:listitem="@layout/item_dashboard"
+        />
+
     </RelativeLayout>
 
-
-</LinearLayout>
