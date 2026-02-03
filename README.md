@@ -1,35 +1,57 @@
-# androiddev_kelas10semester1
+# Login App - Educational Project
 
-![Owner Avatar](https://avatars.githubusercontent.com/u/81026942?v=4)
+A fundamental Android application that demonstrates user login functionality, designed as an educational project to solidify Android development skills for beginners. This project is focused on clean UI and foundational Java programming concepts.
 
-A solo project Login App developed using Java.
+---
 
 ## Table of Contents
-- [General Information](#general-information)
+- [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
+- [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Project Status](#project-status)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
 
-## General Information
-This project is a basic Login App made as a personal solo project, showcasing fundamentals of Java development, specifically targeted as an educational experience during class at the highschool level (Grade 10 Semester 1).
+---
+
+## Introduction
+
+This Android app was developed as an essential project in the learning journey of Android development. It features a user login system and represents the basics of Java-based mobile application development.
+
+---
 
 ## Features
-- User login functionality.
-- Basic and clean UI.
-- Authentication foundation (can be extended further).
+- Basic user login functionality.
+- Simple and clean user interface.
+- Foundational app structure that can be further expanded.
+
+---
 
 ## Technologies Used
-Java
+- Java
+- Android Studio
 
-## Setup
-1. Clone the repository:
-`git clone https://github.com/Aryosetowmn/androiddev_kelas10semester1.git`
-2. Open the project in your IDE.
-3. Run the project on your emulator or physical device.
+---
+
+## Setup Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Aryosetowmn/androiddev_kelas10semester1.git
+   ```
+2. **Open the project** in Android Studio.
+3. **Build and run** the app on an emulator or a connected Android device.
+
+---
 
 ## Usage
-To use this app, run the application and log in via the provided username/email stub validation or modifications for testing.
+
+The app allows users to log in by entering valid credentials. Customize the logic to add more features or validation mechanisms.
+
+---
+
+## Project Status
+
+This project is complete as a beginner-level showcase.
+
+---
