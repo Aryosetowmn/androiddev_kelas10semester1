@@ -54,4 +54,3 @@ The app allows users to log in by entering valid credentials. Customize the logi
 
 This project is complete as a beginner-level showcase.
 
----
