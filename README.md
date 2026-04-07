@@ -1,56 +1,83 @@
-# Login App - Educational Project
+# Login App (Java) — Android Educational Project
 
-A fundamental Android application that demonstrates user login functionality, designed as an educational project to solidify Android development skills for beginners. This project is focused on clean UI and foundational Java programming concepts.
-
----
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Project Status](#project-status)
+Mar 20, 2021 | This project was created when I was in 10th grade at vocational school as a beginner Android practice app.  
+It demonstrates a simple login flow by validating input against expected credentials and handling both success and failure states.
 
 ---
 
-## Introduction
+## Preview (Screenshots)
 
-This Android app was developed as an essential project in the learning journey of Android development. It features a user login system and represents the basics of Java-based mobile application development.
+| Login Screen | Success Toast | Failed Toast |
+|---|---|---|
+| ![Login Screen](docs/login.png) | ![Login Success](docs/success.png) | ![Main Screen](docs/failed.png) |
 
 ---
 
 ## Features
-- Basic user login functionality.
-- Simple and clean user interface.
-- Foundational app structure that can be further expanded.
+
+- Login form with email & password input
+- Simple credential check (demo / hardcoded)
+- Feedback using Toast message (**success** / **failed**)
 
 ---
 
-## Technologies Used
-- Java
-- Android Studio
+## Tech Stack
+
+- **Language:** Java
+- **Build System:** Gradle
+- **AndroidX:** AppCompat
+- **UI:** Material Components, ConstraintLayout  
+- **compileSdk / targetSdk:** 30  
+- **minSdk:** 16
 
 ---
 
-## Setup Instructions
+## Project Structure (High Level)
 
-1. **Clone the repository**:
+- `app/` — Android application module
+- `app/src/main/java/...` — Activities & app logic
+- `app/src/main/res/` — Layouts, strings, colors, themes
+- `gradle/` + `gradlew*` — Gradle wrapper files
+
+---
+
+## Getting Started
+
+### Requirements
+- Android Studio (recommended: a modern version)
+- JDK 11 (recommended for older Gradle/AGP projects)
+- Android SDK Platform 30 installed (compileSdk 30)
+
+### Run Locally
+1. Clone the repository:
    ```bash
    git clone https://github.com/Aryosetowmn/androiddev_kelas10semester1.git
    ```
-2. **Open the project** in Android Studio.
-3. **Build and run** the app on an emulator or a connected Android device.
+2. Open the project in **Android Studio**
+3. Wait for **Gradle Sync** to finish
+4. Run on:
+   - Emulator (Device Manager), or
+   - Physical Android device (USB Debugging enabled)
 
 ---
 
-## Usage
+## Demo Credentials
 
-The app allows users to log in by entering valid credentials. Customize the logic to add more features or validation mechanisms.
+Use these credentials to trigger the successful login flow:
+
+- **Email:** `makanbakso@gmail.com`
+- **Password:** `123456`
 
 ---
 
-## Project Status
+## Notes
 
-This project is complete as a beginner-level showcase.
+This repository is intended for learning and portfolio demonstration.  
+For real-world applications, you should replace hardcoded credentials with secure authentication (e.g., API + token-based auth) and proper input validation.
 
+---
+
+## Author
+
+**Aryosetowmn**  
+Repository: `Aryosetowmn/androiddev_kelas10semester1`
