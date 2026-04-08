@@ -1,4 +1,4 @@
-# Login App (Java) — Android Educational Project
+# Login App (Java) - Android Educational Project
 
 Mar 20, 2021 | This project was created when I was in 10th grade at vocational school as a beginner Android practice app.  
 It demonstrates a simple login flow by validating input against expected credentials and handling both success and failure states.
@@ -34,10 +34,10 @@ It demonstrates a simple login flow by validating input against expected credent
 
 ## Project Structure (High Level)
 
-- `app/` — Android application module
-- `app/src/main/java/...` — Activities & app logic
-- `app/src/main/res/` — Layouts, strings, colors, themes
-- `gradle/` + `gradlew*` — Gradle wrapper files
+- `app/` - Android application module
+- `app/src/main/java/...` - Activities & app logic
+- `app/src/main/res/` - Layouts, strings, colors, themes
+- `gradle/` + `gradlew*` - Gradle wrapper files
 
 ---
 
